@@ -88,6 +88,8 @@ tsr.on("ready", () => {
   console.log("Ready");
   console.log("Reading Server Groups")
   tsr.readServerGroups().then(gs => fs.writeFile("./sgroups.json", JSON.stringify(gs), logerr));
+  console.log("Reading Channels")
   tsr.readChannels().then(cs => fs.writeFile("./chans.json", JSON.stringify(cs), logerr));
+  console.log("Reading Client Groups")
   tsr.readChannelGroups().then(gs => fs.writeFile("./cgroups.json", JSON.stringify(gs), logerr));
 });
