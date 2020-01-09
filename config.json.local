@@ -2,8 +2,7 @@
   "host": "127.0.0.1",
   "queryport": 10011,
   "serverport": 9987,
-  "serverid": 1,
-  "username": "querylogin name",
-  "password": "secret",
+  "username": "serveradmin",
+  "password": "jbTQPe2r",
   "nickname": "Reader"
 }
