@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "stable": "^0.1.8",
-    "ts3-nodejs-library": "^1.13.1"
+    "ts3-nodejs-library": "^3.4.1"
   },
   "devDependencies": {
     "@types/ts3-nodejs-library": "^1.13.2"
